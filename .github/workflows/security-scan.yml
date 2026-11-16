@@ -1,4 +1,3 @@
-@'
 name: Container Security Scan
 
 on:
@@ -36,4 +35,3 @@ jobs:
         with:
           sarif_file: "trivy-results.sarif"
           category: "container-scanning"
-'@ | Set-Content -Encoding ascii .github\workflows\security-scan.yml
